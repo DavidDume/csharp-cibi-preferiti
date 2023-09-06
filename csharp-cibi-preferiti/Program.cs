@@ -3,9 +3,9 @@ string[] cibi = { "pizza", "hamburger", "gelato", "bistecca", "patatine" };
 
 Console.WriteLine($"Lunghezza classifica {cibi.Length}");
 
-for(int i = 1; i <= cibi.Length - 1; i++)
+for(int i = 0; i < cibi.Length; i++)
 {
-    Console.WriteLine($"{i} - {cibi[i]} ");
+    Console.WriteLine($"{i+1} - {cibi[i]} ");
 }
 
 Console.WriteLine($"Primo Posto - {cibi[0]}");
